@@ -55,7 +55,7 @@ let value = ["Home", "About", "Services", 'Contact'];
         className="w-full relative transition-all  md:w-[90%] mx-auto bg-gray-400 h-screen p-4"
       >
         <nav className="flex shadow-md animate-top-to-bottom justify-between items-center rounded-md bg-white p-4 ">
-          <div className="flex items-center">
+          <div data-aos="slide-right" className="flex items-center">
             <img src={logo} alt="Harmony Dreams Logo" className="h-10 mr-2" />
 
             <span className="text-xl font-bold">Harmony Dreams</span>
