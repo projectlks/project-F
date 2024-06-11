@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    scrollbar-width: 10px;
+    /* For Firefox */
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+    /* background: transparent; */
+
+}
+
+*::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 4px
+}
+
