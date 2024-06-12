@@ -139,7 +139,7 @@ let value = ["Home", "About", "Services", 'Contact'];
       </section>
 
       {/* something */}
-      <section className="w-full my-10 grid mx-auto gap-6 mb-10 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:w-[80%] h-auto">
+      <section className="w-full h-[500px]  overflow-y-hidden my-10 grid mx-auto gap-6 mb-10 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:w-[80%] ">
         <div
           data-aos="slide-up"
           className="w-[90%] mx-auto h-[500px] animate-pulse bg-red-700"
